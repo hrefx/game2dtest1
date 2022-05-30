@@ -1,7 +1,6 @@
 import User
 import Goal
 
-
 class Scoreboard:
     def __init__(self):
         self.__scoreboard = {}
@@ -30,4 +29,3 @@ class Scoreboard:
         for element in self.__scoreboard:
             file.write(element + " "+str(self.__scoreboard[element])+" ")
         file.close()
-        
